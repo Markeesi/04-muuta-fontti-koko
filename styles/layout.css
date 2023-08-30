@@ -3,9 +3,10 @@ html {
 }
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(64, 201, 211);
+  background-color: rgb(255, 255, 255);
   color: black;
   padding: 1rem;
+  margin: 1rem;
 }
 
 h1 {
@@ -14,8 +15,26 @@ h1 {
 p {
   font-size: 1.6rem;
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+}
+
 .button {
   padding: 2rem;
+  margin: 35rem 3rem;
+  background-color: rgb(11, 180, 237);
+  border-radius: 20%;
+}
+
+.nyt {
+  padding: 2rem;
+  margin: 35rem 10rem;
 }
 
 /* @media screen and (min-width: 426px) {

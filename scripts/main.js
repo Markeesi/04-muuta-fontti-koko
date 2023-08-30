@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let fontinKoko = 16;
   fontKoko.style.fontSize = fontinKoko + "px"; // set the fontsize to 16px
+  fontKokoNyt.textContent = "Fontin koko nyt: " + fontinKoko + "px";
 
   button.onclick = () => {
     fontinKoko += 4;
@@ -13,5 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     fontKoko.style.fontSize = fontinKoko + "px"; // Update the font size after the change
+    fontKokoNyt.textContent = "Fontin koko nyt " + fontinKoko + "px";
   };
 });
