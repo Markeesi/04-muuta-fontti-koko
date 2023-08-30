@@ -14,6 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     fontKoko.style.fontSize = fontinKoko + "px"; // Update the font size after the change
-    fontKokoNyt.textContent = "Fontin koko nyt " + fontinKoko + "px";
+    fontKokoNyt.textContent = "Fontin koko nyt: " + fontinKoko + "px";
   };
 });
